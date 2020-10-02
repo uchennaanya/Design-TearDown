@@ -175,12 +175,14 @@ body {
   width: 600px;
   margin: 30px 0 0 30px;
   border-radius: 10px;
+  padding-top: 10px;
 }
 
 .explore .right {
   background-color: #fff;
   height: 400px;
   width: 600px;
+  padding-top: 10px;
   margin: 30px 30px 0 0;
   border-radius: 10px;
 }
@@ -190,11 +192,15 @@ body {
   height: 600px;
   width: 600px;
   margin: 30px 0 30px 30px;
+  padding-top: 20px;
+  padding-bottom: 680px;
   border-radius: 10px;
 }
 
 .explore .right-down {
-text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #fff;
   height: auto;
   width: 600px;
@@ -203,6 +209,13 @@ text-align: center;
   border-radius: 10px;
 }
 
+.seeall {
+  width: 150px;
+  height: 40px;
+  background-color: floralwhite;
+  margin: 10px auto 70px auto;
+  border-radius: 5px;
+}
 .right-down .circle {
   border-radius: 50%;
   width: 300px;
@@ -211,32 +224,39 @@ text-align: center;
   background-color: dimgray;
 }
 
-.right-down .title {
+.title {
   width: 300px;
-  height: 20px;
+  height: 40px;
   background-color: dimgray;
   margin: 30px 0 0 20px;
 }
-
-.right-down .desc {
+.sub-title {
+  width: 250px;
+  height: 25px;
+  background-color: dimgray;
+  margin: 10px 0 0 20px;
+}
+.desc {
   width: 400px;
   height: 100px;
   background-color: dimgray;
   margin: 30px 0 0 20px;
 }
 
-.right-down .desc-title {
+.desc-title {
   width: 400px;
   height: 50px;
   background-color: dimgray;
   margin: 30px 0 0 20px;
+  border-radius: 5px;
 }
 
-.right-down .desc-footer {
+.desc-footer {
   width: 300px;
   height: 65px;
   background-color: dimgray;
   margin: 30px 0 0 20px;
+  border-radius: 5px;
 }
 
 /* Footer */
