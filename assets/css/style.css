@@ -447,7 +447,7 @@ body {
 .design-system {
   display: flex;
   padding: 50px;
-  margin-top: 200px;
+  margin-top: 85px;
   justify-content: space-around;
   background-color: dimgray;
   height: auto;
@@ -618,9 +618,22 @@ body {
 }
 
 .person-bottomGridLeft {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
   background-color: #696969;
+  transform: rotate(-11deg) scale(0.83);
+  transition: transform 0.2s ease-out;
+  cursor: pointer;
+}
+
+.person-bottomGridLeft:hover {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: #696969;
+  transform: rotate(0deg) scale(0.83);
+  transition: transform 0.2s ease-out;
 }
 
 .person-bottomGridRight {
@@ -649,4 +662,11 @@ body {
   height: 20px;
   background-color: #696969;
   margin: 0 0 10px 0;
+}
+
+.person-footer {
+  width: 300px;
+  height: 30px;
+  background-color: #696969;
+  margin: 0 auto;
 }
