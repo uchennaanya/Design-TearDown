@@ -13,7 +13,7 @@ body {
 .logo {
   background-color: dimgray;
   width: 100px;
-
+  cursor: pointer;
   height: 55px;
   border-radius: 5px;
 }
@@ -41,6 +41,7 @@ li:hover {
   width: 300px;
   border-radius: 5px;
   height: 55px;
+  cursor: pointer;
 }
 /* Nav section */
 
@@ -48,8 +49,9 @@ li:hover {
   display: flex;
   justify-content: space-around;
   background-color: #ccc;
-  height: 90px;
+  height: auto;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 /* Main Body Section */
@@ -318,7 +320,7 @@ li:hover {
 }
 
 .explore .left {
-  background-color: #fff;
+  background-color: lightgray;
   height: 400px;
   width: 600px;
   margin: 30px 0 0 30px;
@@ -327,7 +329,7 @@ li:hover {
 }
 
 .explore .right {
-  background-color: #fff;
+  background-color: lightgray;
   height: 400px;
   width: 600px;
   padding-top: 10px;
@@ -336,7 +338,7 @@ li:hover {
 }
 
 .explore .left-down {
-  background-color: #fff;
+  background-color: lightgray;
   height: 600px;
   width: 600px;
   margin: 30px 0 30px 30px;
@@ -349,7 +351,7 @@ li:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fff;
+  background-color: lightgray;
   height: auto;
   width: 600px;
   padding: 10px 0;
@@ -360,7 +362,7 @@ li:hover {
 .seeall {
   width: 150px;
   height: 40px;
-  background-color: floralwhite;
+  background-color: dimgray;
   margin: 10px auto 70px auto;
   border-radius: 5px;
 }
@@ -684,9 +686,9 @@ li:hover {
 
 .Comparing-styling .col_1 {
   flex: 1;
-  height: 400px;
+  height: 560px;
   background-color: #ccc;
-  padding: 20px 0 50px 0;
+  padding: 3rem;
 }
 
 .Comparing-styling .col_2 {
@@ -699,20 +701,20 @@ li:hover {
   margin-left: 1.5rem;
   width: 50px;
   height: 10px;
-  background-color: #fff;
+  background-color: #808080;
 }
 
 .Comparing-styling .title {
   width: 200px;
   height: 30px;
   margin-bottom: 50px;
-  background-color: #fff;
+  background-color: #808080;
 }
 
 .Comparing-styling .desc {
   width: 300px;
   height: 180px;
-  background-color: #fff;
+  background-color: #808080;
 }
 
 .Comparing-styling .author {
@@ -720,16 +722,15 @@ li:hover {
   width: 100px;
   height: 10px;
   margin-bottom: 0px;
-  background-color: #fff;
+  background-color: #808080;
 }
 
 .Comparing-styling .circle {
   width: 200px;
   height: 200px;
-  bottom: #dadada;
   border-radius: 50%;
   margin: 10px auto;
-  border: 30px solid #ccc;
+  border: 30px solid #808080;
 }
 
 .wrap .title {
@@ -745,26 +746,26 @@ li:hover {
   height: 50px;
   width: 200px;
   border-radius: 6px;
-  background-color: #fff;
+  background-color: #808080;
 }
 
 .wrap .see-all {
   margin: 20px auto;
   height: 30px;
   width: 200px;
-  background-color: #fff;
+  background-color: #808080;
 }
 
 .wrap .desc {
   margin: 20px auto;
   height: 150px;
   width: 500px;
-  background-color: #fff;
+  background-color: #808080;
 }
 
 .wrap .sign-up {
   margin: 20px auto;
   height: 30px;
   width: 220px;
-  background-color: #fff;
+  background-color: #808080;
 }
