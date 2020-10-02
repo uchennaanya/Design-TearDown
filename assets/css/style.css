@@ -144,7 +144,15 @@ body {
   height: 320px;
   width: 220px;
   top: -50px;
-  margin: 0 0 0 120px;
+  margin: 0 0 0 12rem;
+  transform: translateX(5%) rotateZ(-11deg) scale(0.97);
+  transition: transform 0.2s ease-out;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main-footerImg:hover {
+  transform: rotate(0deg);
 }
 
 .footer-p {
@@ -160,6 +168,142 @@ body {
   width: 80%;
   height: 55px;
   border-radius: 10px;
+}
+
+/* Latest Post in Main Section */
+
+.article-latestPost {
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+
+.article-latest {
+  width: 33.333%;
+  margin: 30px 0 30px 70px;
+}
+
+.article-latest .date {
+  background-color: #adadad;
+  height: 20px;
+  width: 2.5rem;
+  margin: 0 0 10px 0;
+}
+
+.article-latest .latestPost-title {
+  height: 50px;
+  width: 80%;
+  background-color: #adadad;
+  margin: 0 0 10px 0;
+}
+
+.latestPost-Author {
+  background-color: #adadad;
+  height: 20px;
+  width: 4rem;
+  margin: 0 0 10px 0;
+}
+
+.latestPost-details {
+  background-color: #adadad;
+  height: 100px;
+  width: 80%;
+}
+
+/* shopify Ad Page */
+
+.shopify-Ad {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.shopify-left {
+  width: 50%;
+  padding: 40px;
+}
+
+.shopify-leftTitle {
+  background-color: #adadad;
+  width: 5rem;
+  height: 20px;
+  margin: 0 0 10px 0;
+}
+
+.shopify-leftBox {
+  border-radius: 5px;
+  height: auto;
+  width: 80%;
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.shopify-leftTitle {
+  width: 300px;
+  height: 30px;
+  background-color: #adadad;
+  margin: 10px auto;
+}
+
+.shopify-leftDetails {
+  width: 300px;
+  height: 50px;
+  background-color: #adadad;
+  margin: 10px auto;
+}
+
+.shopify-leftBtn {
+  width: 200px;
+  height: 30px;
+  background-color: #adadad;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.shopify-right {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  height: auto;
+  background-color: dimgray;
+}
+
+.shopify-right .circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 5px auto;
+  background-color: #adadad;
+}
+
+.shopify-right .shopify-title {
+  width: 300px;
+  height: 30px;
+  background-color: #adadad;
+  margin: 10px auto;
+}
+
+.shopify-right .title {
+  width: 300px;
+  height: 20px;
+  background-color: #adadad;
+  margin: 10px auto;
+}
+
+.shopify-right .details {
+  margin: 10px auto;
+  height: 100px;
+  width: 300px;
+  background-color: #adadad;
+}
+
+.shopify-right .btn-shopify {
+  margin: 10px auto;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #adadad;
+  width: 250px;
 }
 
 /* Explore */
