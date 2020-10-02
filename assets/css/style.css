@@ -32,6 +32,10 @@ body {
   border-radius: 5px;
 }
 
+li:hover {
+  cursor: pointer;
+}
+
 .signup {
   background-color: dimgray;
   width: 300px;
@@ -669,4 +673,98 @@ body {
   height: 30px;
   background-color: #696969;
   margin: 0 auto;
+}
+
+/* Comparing Styling Method */
+
+.Comparing-styling {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Comparing-styling .col_1 {
+  flex: 1;
+  height: 400px;
+  background-color: #ccc;
+  padding: 20px 0 50px 0;
+}
+
+.Comparing-styling .col_2 {
+  flex: 3;
+  height: auto;
+  background-color: #dadada;
+}
+
+.Comparing-styling .date {
+  margin-left: 1.5rem;
+  width: 50px;
+  height: 10px;
+  background-color: #fff;
+}
+
+.Comparing-styling .title {
+  width: 200px;
+  height: 30px;
+  margin-bottom: 50px;
+  background-color: #fff;
+}
+
+.Comparing-styling .desc {
+  width: 300px;
+  height: 180px;
+  background-color: #fff;
+}
+
+.Comparing-styling .author {
+  margin-left: 1.5rem;
+  width: 100px;
+  height: 10px;
+  margin-bottom: 0px;
+  background-color: #fff;
+}
+
+.Comparing-styling .circle {
+  width: 200px;
+  height: 200px;
+  bottom: #dadada;
+  border-radius: 50%;
+  margin: 10px auto;
+  border: 30px solid #ccc;
+}
+
+.wrap .title {
+  margin: 0 auto;
+}
+
+.wrap .desc {
+  margin: 0 auto;
+}
+
+.wrap .btn {
+  margin: 0 auto;
+  height: 50px;
+  width: 200px;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.wrap .see-all {
+  margin: 20px auto;
+  height: 30px;
+  width: 200px;
+  background-color: #fff;
+}
+
+.wrap .desc {
+  margin: 20px auto;
+  height: 150px;
+  width: 500px;
+  background-color: #fff;
+}
+
+.wrap .sign-up {
+  margin: 20px auto;
+  height: 30px;
+  width: 220px;
+  background-color: #fff;
 }
