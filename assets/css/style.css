@@ -458,7 +458,7 @@ body {
   width: 300px;
   height: 50px;
   background-color: #ccc;
-  margin-top: 30px;
+  margin: 30px 0 0 1rem;
   border-radius: 5px;
 }
 
@@ -497,6 +497,156 @@ body {
   top: -100px;
   transform: rotate(0deg);
   cursor: pointer;
-  transition: all .2s ease-out;
+  transition: all 0.2s ease-out;
+}
 
+/* Shopping Banner */
+
+.shopping-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #adadad;
+  padding: 50px 0;
+}
+
+.shopping-bannerDate {
+  width: 200px;
+  height: 20px;
+  background-color: #696969;
+  margin: 0 0 20px 0;
+}
+
+.shopping-bannerTitle {
+  width: 60%;
+  height: 50px;
+  background-color: #696969;
+  margin: 0 0 20px 0;
+}
+
+.shopping-bannerSTitle {
+  width: 40%;
+  height: 50px;
+  background-color: #696969;
+  margin: 0 0 20px 0;
+}
+
+.shopping-bannerDetails {
+  width: 60%;
+  height: 25px;
+  background-color: #696969;
+  margin: 0 0 10px 0;
+}
+
+.shopping-bannerButton {
+  width: 30%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #696969;
+  margin: 0 0 20px 0;
+}
+
+.shopping-bannerCircle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #696969;
+  margin: 0 0 10px 0;
+}
+
+/* Person of the Weeek Section */
+
+.person {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin: 50px 0;
+}
+
+.person-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.person-topLeft {
+  width: 200px;
+  height: 200px;
+  background-color: #808080;
+  margin: 0 5%;
+  transform: rotate(-11deg) scale(0.84);
+  transition: transform 0.2s ease-out;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.person-topLeft:hover {
+  width: 200px;
+  height: 200px;
+  background-color: #808080;
+  margin: 0 5%;
+  transform: rotate(0deg) scale(0.84);
+  transition: transform 0.2s ease-out;
+  border-radius: 10px;
+}
+
+.person-topRight {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 10px 3% 0 3%;
+}
+
+.person-topRightTitle {
+  width: 70%;
+  height: 20px;
+  background-color: #808080;
+  margin: 0 10% 10px 3%;
+}
+
+.person-bottom {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: auto;
+  grid-gap: 10px;
+}
+
+.person-bottomGrid {
+  display: flex;
+  margin: 0 0 0 30px;
+  padding: 2.5rem;
+}
+
+.person-bottomGridLeft {
+  width: 100px;
+  height: 100px;
+  background-color: #696969;
+}
+
+.person-bottomGridRight {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0 0 0 20px;
+}
+
+.person-bottomGridName {
+  width: 100px;
+  height: 20px;
+  background-color: #696969;
+  margin: 0 0 10px 0;
+}
+
+.person-bottomGridTitle {
+  width: 80%;
+  height: 30px;
+  background-color: #696969;
+  margin: 0 0 10px 0;
+}
+
+.person-bottomGridDetails {
+  width: 80%;
+  height: 20px;
+  background-color: #696969;
+  margin: 0 0 10px 0;
 }
