@@ -4,7 +4,7 @@
 
 This project is about cloning/building a heatmap of the Smashing magazine website using HTML5/CSS3
 
-![screenshot](./project-screenshot.png)
+![screenshot](./img/project-screenshot.png)
 
 ## Built With
 
@@ -31,7 +31,7 @@ CSS
 
 👤 **Uchenna Martins Anya**
 
-- GitHub: [Uchenna Martins Anya](https://github.com/)
+- GitHub: [Uchenna Martins Anya](https://github.com/uchennaanya)
 
 👤 **Divyesh Patel**
 
