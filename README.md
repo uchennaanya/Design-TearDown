@@ -2,7 +2,7 @@
 
 # Design-TearDown
 
-This project is about cloning/building a heatmap of the Smashing magazine website using HTML5/CSS3
+This project is about cloning/building a heatmap of the [Smashing magazine](https://www.smashingmagazine.com/) website using HTML5/CSS3
 
 ![screenshot](./assets/img/project-screenshot.png)
 
