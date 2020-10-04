@@ -21,7 +21,7 @@ CSS
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/uchennaanya/Design-TearDown/6670887ece2c5e9837697fe3d6e1172cd2a5d49b/index.html)
 
 ## Getting Started
 
@@ -32,6 +32,8 @@ CSS
 👤 **Uchenna Martins Anya**
 
 - GitHub: [Uchenna Martins Anya](https://github.com/uchennaanya)
+- Twitter: [@martinsanya19](https://twitter.com/martinsanya19)
+- linkedIn: [Uchenna Anya](https://www.linkedin.com/in/uchenna-anya)
 
 👤 **Divyesh Patel**
 
