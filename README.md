@@ -14,7 +14,7 @@ HTML
 
 CSS
 
-- Use of Gradient backgound.
+- Use of Gradient background.
 - Use of flex layout
 - Use of grid layout
 - Use of float
