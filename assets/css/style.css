@@ -1,0 +1,771 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eceef1;
+}
+
+.logo {
+  background-color: dimgray;
+  width: 100px;
+  cursor: pointer;
+  height: 55px;
+  border-radius: 5px;
+}
+
+.navbar {
+  background-color: #ccc;
+}
+
+h2 {
+  display: none;
+}
+
+.navbar li {
+  background-color: #adadad;
+  list-style: none;
+  margin: 5px 10px;
+  display: inline-block;
+  height: 55px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.signup {
+  background-color: dimgray;
+  width: 300px;
+  border-radius: 5px;
+  height: 55px;
+  cursor: pointer;
+}
+
+/* Nav section */
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ccc;
+  height: auto;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Main Body Section */
+
+.main {
+  margin: 50px 0;
+}
+
+.main-body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 365px;
+  padding: 5rem;
+}
+
+.article-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-icon {
+  background-color: #808080;
+  height: 80px;
+  width: 80px;
+  transform: translateX(5%) rotateZ(-11deg) scale(0.97);
+  transition: transform 0.2s ease-out;
+  border-radius: 8px;
+}
+
+.img-icon:hover {
+  transform: rotate(0deg);
+}
+
+.text-side {
+  background-color: #adadad;
+  height: 35px;
+  flex: 1;
+  margin: 0 0 0 30px;
+}
+
+.article-p {
+  margin: 10px auto;
+  background-color: #adadad;
+  height: 40px;
+  width: 100%;
+}
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-header-1 {
+  width: 25%;
+  background-color: #808080;
+  height: 45px;
+}
+
+.main-header-2 {
+  width: 15%;
+  height: 45px;
+  background-color: #808080;
+}
+
+.main-footer {
+  background-color: #adadad;
+  width: 100%;
+  height: 400px;
+  margin: -5px 0 0 0;
+  position: relative;
+}
+
+.main-footerleft {
+  float: left;
+  width: 50%;
+  margin: 30px 0 0 80px;
+}
+
+.main-footerright {
+  float: right;
+  width: 50%;
+}
+
+.main-footerImg {
+  background-color: dimgray;
+  position: absolute;
+  height: 320px;
+  width: 220px;
+  top: -50px;
+  margin: 0 0 0 12rem;
+  transform: translateX(5%) rotateZ(-11deg) scale(0.97);
+  transition: transform 0.2s ease-out;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main-footerImg:hover {
+  transform: rotate(0deg);
+}
+
+.footer-p {
+  background-color: dimgray;
+  height: 20px;
+  width: 100%;
+  margin: 30px 0;
+}
+
+.main-footerDown {
+  background-color: dimgray;
+  width: 80%;
+  height: 55px;
+  border-radius: 10px;
+}
+
+/* Latest Post in Main Section */
+
+.article-latestPost {
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+
+.article-latest {
+  width: 33.333%;
+  margin: 30px 0 30px 70px;
+}
+
+.article-latest .date {
+  background-color: #adadad;
+  height: 20px;
+  width: 2.5rem;
+  margin: 0 0 10px 0;
+}
+
+.article-latest .latestPost-title {
+  height: 50px;
+  width: 80%;
+  background-color: #adadad;
+  margin: 0 0 10px 0;
+}
+
+.latestPost-Author {
+  background-color: #adadad;
+  height: 20px;
+  width: 4rem;
+  margin: 0 0 10px 0;
+}
+
+.latestPost-details {
+  background-color: #adadad;
+  height: 100px;
+  width: 80%;
+}
+
+/* shopify Ad Page */
+
+.shopify-Ad {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.shopify-left {
+  width: 50%;
+  padding: 40px;
+}
+
+.shopify-leftTitle {
+  background-color: #adadad;
+  width: 8rem;
+  height: 20px;
+  margin: 0 auto 10px auto;
+}
+
+.shopify-leftBox {
+  border-radius: 5px;
+  height: auto;
+  width: 80%;
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.shopify-leftBoxTitle {
+  background-color: #adadad;
+  width: 10rem;
+  height: 20px;
+  margin: 0 auto 10px auto;
+}
+
+.shopify-leftDetails {
+  width: 300px;
+  height: 50px;
+  background-color: #adadad;
+  margin: 10px auto;
+}
+
+.shopify-leftBtn {
+  width: 200px;
+  height: 30px;
+  background-color: #adadad;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.shopify-right {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  height: auto;
+  background-color: dimgray;
+}
+
+.shopify-right .circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 5px auto;
+  background-color: #adadad;
+}
+
+.shopify-right .shopify-title {
+  width: 300px;
+  height: 30px;
+  background-color: #adadad;
+  margin: 10px auto;
+}
+
+.shopify-right .title {
+  width: 300px;
+  height: 20px;
+  background-color: #adadad;
+  margin: 10px auto;
+}
+
+.shopify-right .details {
+  margin: 10px auto;
+  height: 100px;
+  width: 300px;
+  background-color: #adadad;
+}
+
+.shopify-right .btn-shopify {
+  margin: 10px auto;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #adadad;
+  width: 250px;
+}
+
+/* Explore */
+
+.explore {
+  display: flex;
+  justify-content: space-around;
+}
+
+.explore .left {
+  background-color: lightgray;
+  height: 400px;
+  width: 600px;
+  margin: 30px 0 0 30px;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.explore .right {
+  background-color: lightgray;
+  height: 400px;
+  width: 600px;
+  padding-top: 10px;
+  margin: 30px 30px 0 0;
+  border-radius: 10px;
+}
+
+.explore .left-down {
+  background-color: lightgray;
+  height: 600px;
+  width: 600px;
+  margin: 30px 0 30px 30px;
+  padding-top: 20px;
+  padding-bottom: 680px;
+  border-radius: 10px;
+}
+
+.explore .right-down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgray;
+  height: auto;
+  width: 600px;
+  padding: 10px 0 80px 0;
+  margin: 30px 30px 30px 0;
+  border-radius: 10px;
+}
+
+.seeall {
+  width: 150px;
+  height: 40px;
+  background-color: dimgray;
+  margin: 10px auto 70px auto;
+  border-radius: 5px;
+}
+
+.right-down .circle {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: dimgray;
+}
+
+.sub-title {
+  width: 250px;
+  height: 25px;
+  background-color: dimgray;
+  margin: 10px 0 0 20px;
+}
+
+.desc {
+  width: 400px;
+  height: 100px;
+  background-color: dimgray;
+  margin: 30px 0 0 20px;
+}
+
+.desc-title {
+  width: 400px;
+  height: 50px;
+  background-color: dimgray;
+  margin: 30px 0 0 20px;
+  border-radius: 5px;
+}
+
+.desc-footer {
+  width: 300px;
+  height: 65px;
+  background-color: dimgray;
+  margin: 30px 0 0 20px;
+  border-radius: 5px;
+}
+
+/* Footer */
+
+.custom-footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: dimgray;
+  padding: 50px 3% 50px 3%;
+  width: 100%;
+}
+
+.footer-title {
+  width: 350px;
+  height: 20px;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+}
+
+.custom-footer ul {
+  display: inline;
+  margin: 0 auto;
+  padding: 4px 3rem;
+}
+
+.footer-li {
+  margin: 10px;
+  display: inline-block;
+  background-color: #ccc;
+  padding: 10px 3rem;
+}
+
+.custom-footer .row {
+  margin-top: 10px;
+}
+
+.footer-paragraph {
+  background-color: #f1f1f1;
+  width: 300px;
+  height: 20px;
+  margin: 8px auto;
+}
+
+/* Design System */
+
+.design-system {
+  display: flex;
+  padding: 50px;
+  margin-top: 85px;
+  justify-content: space-around;
+  background-color: dimgray;
+  height: auto;
+  position: relative;
+}
+
+.design-system .btn {
+  width: 300px;
+  height: 60px;
+  background-color: #ccc;
+  margin: 1.5rem 0 0 1.25rem;
+  border-radius: 5px;
+}
+
+.design-system .desc {
+  width: 600px;
+  height: 200px;
+  background-color: #ccc;
+}
+
+.design-system .title {
+  width: 300px;
+  height: 55px;
+  background-color: #ccc;
+  margin: 0.5rem 1.25rem;
+}
+
+.design-system .sub-title {
+  width: 250px;
+  height: 30px;
+  background-color: #ccc;
+}
+
+.design-system .side {
+  background-color: #ccc;
+  width: 200px;
+  height: 400px;
+  position: relative;
+  top: -100px;
+  transform: rotate(-11deg);
+}
+
+.design-system .side:hover {
+  background-color: #ccc;
+  width: 200px;
+  height: 400px;
+  position: relative;
+  top: -100px;
+  transform: rotate(0deg);
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+/* Shopping Banner */
+
+.shopping-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #adadad;
+  padding: 50px 0;
+}
+
+.shopping-bannerDate {
+  width: 200px;
+  height: 20px;
+  background-color: #696969;
+  margin: 0 0 20px 0;
+}
+
+.shopping-bannerTitle {
+  width: 60%;
+  height: 50px;
+  background-color: #696969;
+  margin: 0 0 20px 0;
+}
+
+.shopping-bannerSTitle {
+  width: 40%;
+  height: 50px;
+  background-color: #696969;
+  margin: 0 0 20px 0;
+}
+
+.shopping-bannerDetails {
+  width: 60%;
+  height: 25px;
+  background-color: #696969;
+  margin: 0 0 10px 0;
+}
+
+.shopping-bannerButton {
+  width: 30%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #696969;
+  margin: 0 0 20px 0;
+}
+
+.shopping-bannerCircle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #696969;
+  margin: 0 0 10px 0;
+}
+
+/* Person of the Weeek Section */
+
+.person {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin: 50px 0;
+}
+
+.person-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.person-topLeft {
+  width: 200px;
+  height: 200px;
+  background-color: #808080;
+  margin: 0 5%;
+  transform: rotate(-11deg) scale(0.84);
+  transition: transform 0.2s ease-out;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.person-topLeft:hover {
+  width: 200px;
+  height: 200px;
+  background-color: #808080;
+  margin: 0 5%;
+  transform: rotate(0deg) scale(0.84);
+  transition: transform 0.2s ease-out;
+  border-radius: 10px;
+}
+
+.person-topRight {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 10px 3% 0 3%;
+}
+
+.person-topRightTitle {
+  width: 70%;
+  height: 20px;
+  background-color: #808080;
+  margin: 0 10% 10px 3%;
+}
+
+.person-bottom {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: auto;
+  grid-gap: 10px;
+}
+
+.person-bottomGrid {
+  display: flex;
+  margin: 0 0 0 30px;
+  padding: 2.5rem;
+}
+
+.person-bottomGridLeft {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: #696969;
+  transform: rotate(-11deg) scale(0.83);
+  transition: transform 0.2s ease-out;
+  cursor: pointer;
+}
+
+.person-bottomGridLeft:hover {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: #696969;
+  transform: rotate(0deg) scale(0.83);
+  transition: transform 0.2s ease-out;
+}
+
+.person-bottomGridRight {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0 0 0 20px;
+}
+
+.person-bottomGridName {
+  width: 100px;
+  height: 20px;
+  background-color: #696969;
+  margin: 0 0 10px 0;
+}
+
+.person-bottomGridTitle {
+  width: 80%;
+  height: 30px;
+  background-color: #696969;
+  margin: 0 0 10px 0;
+}
+
+.person-bottomGridDetails {
+  width: 80%;
+  height: 20px;
+  background-color: #696969;
+  margin: 0 0 10px 0;
+}
+
+.person-footer {
+  width: 300px;
+  height: 30px;
+  background-color: #696969;
+  margin: 0 auto;
+}
+
+/* Comparing Styling Method */
+
+.Comparing-styling {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Comparing-styling .col_1 {
+  flex: 1;
+  height: 560px;
+  background-color: #ccc;
+  padding: 3rem;
+}
+
+.Comparing-styling .col_2 {
+  flex: 3;
+  height: auto;
+  background-color: #dadada;
+}
+
+.Comparing-styling .date {
+  margin-left: 1.5rem;
+  width: 50px;
+  height: 10px;
+  background-color: #808080;
+}
+
+.Comparing-styling .title {
+  width: 200px;
+  height: 30px;
+  margin: 10px 0 30px 1.5rem;
+  background-color: #808080;
+}
+
+.Comparing-styling .desc {
+  width: 300px;
+  height: 180px;
+  background-color: #808080;
+}
+
+.Comparing-styling .author {
+  margin-left: 1.5rem;
+  width: 100px;
+  height: 10px;
+  margin-bottom: 0;
+  background-color: #808080;
+}
+
+.Comparing-styling .circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 10px auto;
+  border: 30px solid #808080;
+}
+
+.wrap .title {
+  margin: 0 auto;
+}
+
+.wrap .btn {
+  margin: 0 auto;
+  height: 50px;
+  width: 200px;
+  border-radius: 6px;
+  background-color: #808080;
+}
+
+.wrap .see-all {
+  margin: 20px auto;
+  height: 30px;
+  width: 200px;
+  background-color: #808080;
+}
+
+.wrap .desc {
+  margin: 20px auto;
+  height: 150px;
+  width: 500px;
+  background-color: #808080;
+}
+
+.wrap .sign-up {
+  margin: 20px auto;
+  height: 30px;
+  width: 220px;
+  background-color: #808080;
+}
